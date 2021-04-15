@@ -12,7 +12,7 @@ def serchORmakerul():
     if sleds.get()!='':
         for line in fileinput.input('rules.txt',inplace=True):
             if '{}'.format(p1.strip()+''+p2.strip()+''+p3.strip()+''+p4.strip()+'') in line:
-                contune
+                continue
             print(line.rstrip('\n'))
 
         frul=open('rules.txt','a')

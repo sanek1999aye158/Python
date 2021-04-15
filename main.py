@@ -1,4 +1,4 @@
 print('hello')
 
 
-ptiny('This is a new code here")
+print('This is a new code here")
